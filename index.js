@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('this is with slack integration for free style project.Hello World this new push in master branch! v1 with pipeline v1 only push in server. docker image is not created');
+  res.send('fresh start');
 });
 
 var server = app.listen(3001, function () {
